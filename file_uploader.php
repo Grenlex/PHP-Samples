@@ -11,9 +11,6 @@
     </form>
 
 
-
-
-
 <?php
 
 if (isset($_FILES['file']))  
@@ -37,7 +34,6 @@ if (isset($_FILES['file']))
 header("location: file_uploader.php");
 exit;
 }
-
 
 ?>
 
